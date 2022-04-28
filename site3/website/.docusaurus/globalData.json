@@ -1,0 +1,1698 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": false,
+          "path": "/docs/next",
+          "mainDocId": "overview/overview",
+          "docs": [
+            {
+              "id": "admin/autorecovery",
+              "path": "/docs/next/admin/autorecovery",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "admin/bookies",
+              "path": "/docs/next/admin/bookies",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "admin/decomission",
+              "path": "/docs/next/admin/decomission",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "admin/geo-replication",
+              "path": "/docs/next/admin/geo-replication"
+            },
+            {
+              "id": "admin/http",
+              "path": "/docs/next/admin/http",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "admin/metrics",
+              "path": "/docs/next/admin/metrics",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "admin/perf",
+              "path": "/docs/next/admin/perf"
+            },
+            {
+              "id": "admin/placement",
+              "path": "/docs/next/admin/placement"
+            },
+            {
+              "id": "admin/upgrade",
+              "path": "/docs/next/admin/upgrade",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "api/distributedlog-api",
+              "path": "/docs/next/api/distributedlog-api",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "api/ledger-adv-api",
+              "path": "/docs/next/api/ledger-adv-api",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "api/ledger-api",
+              "path": "/docs/next/api/ledger-api",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/next/api/overview",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "deployment/dcos",
+              "path": "/docs/next/deployment/dcos",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "deployment/kubernetes",
+              "path": "/docs/next/deployment/kubernetes",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "deployment/manual",
+              "path": "/docs/next/deployment/manual",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "development/codebase",
+              "path": "/docs/next/development/codebase"
+            },
+            {
+              "id": "development/protocol",
+              "path": "/docs/next/development/protocol",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "getting-started/concepts",
+              "path": "/docs/next/getting-started/concepts",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/next/getting-started/installation",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "getting-started/run-locally",
+              "path": "/docs/next/getting-started/run-locally",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "overview/overview",
+              "path": "/docs/next/overview/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/next/reference/cli",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "reference/config",
+              "path": "/docs/next/reference/config",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "security/overview",
+              "path": "/docs/next/security/overview",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "security/sasl",
+              "path": "/docs/next/security/sasl",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "security/tls",
+              "path": "/docs/next/security/tls",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "security/zookeeper",
+              "path": "/docs/next/security/zookeeper",
+              "sidebar": "docsSidebar"
+            }
+          ],
+          "sidebars": {
+            "docsSidebar": {
+              "link": {
+                "path": "/docs/next/overview/",
+                "label": "Overview"
+              }
+            }
+          }
+        },
+        {
+          "name": "4.14.4",
+          "label": "4.14.4",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "overview/overview",
+          "docs": [
+            {
+              "id": "admin/autorecovery",
+              "path": "/docs/admin/autorecovery",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "admin/bookies",
+              "path": "/docs/admin/bookies",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "admin/decomission",
+              "path": "/docs/admin/decomission",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "admin/geo-replication",
+              "path": "/docs/admin/geo-replication"
+            },
+            {
+              "id": "admin/http",
+              "path": "/docs/admin/http",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "admin/metrics",
+              "path": "/docs/admin/metrics",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "admin/perf",
+              "path": "/docs/admin/perf"
+            },
+            {
+              "id": "admin/placement",
+              "path": "/docs/admin/placement"
+            },
+            {
+              "id": "admin/upgrade",
+              "path": "/docs/admin/upgrade",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "api/distributedlog-api",
+              "path": "/docs/api/distributedlog-api",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "api/ledger-adv-api",
+              "path": "/docs/api/ledger-adv-api",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "api/ledger-api",
+              "path": "/docs/api/ledger-api",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/api/overview",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "deployment/dcos",
+              "path": "/docs/deployment/dcos",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "deployment/kubernetes",
+              "path": "/docs/deployment/kubernetes",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "deployment/manual",
+              "path": "/docs/deployment/manual",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "development/codebase",
+              "path": "/docs/development/codebase"
+            },
+            {
+              "id": "development/protocol",
+              "path": "/docs/development/protocol",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "getting-started/concepts",
+              "path": "/docs/getting-started/concepts",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/getting-started/installation",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "getting-started/run-locally",
+              "path": "/docs/getting-started/run-locally",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "overview/overview",
+              "path": "/docs/overview/",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/reference/cli",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "reference/config",
+              "path": "/docs/reference/config",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "reference/metrics",
+              "path": "/docs/reference/metrics"
+            },
+            {
+              "id": "security/overview",
+              "path": "/docs/security/overview",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "security/sasl",
+              "path": "/docs/security/sasl",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "security/tls",
+              "path": "/docs/security/tls",
+              "sidebar": "version-4.14.4/docsSidebar"
+            },
+            {
+              "id": "security/zookeeper",
+              "path": "/docs/security/zookeeper",
+              "sidebar": "version-4.14.4/docsSidebar"
+            }
+          ],
+          "sidebars": {
+            "version-4.14.4/docsSidebar": {
+              "link": {
+                "path": "/docs/overview/",
+                "label": "Overview"
+              }
+            }
+          }
+        },
+        {
+          "name": "4.13.0",
+          "label": "4.13.0",
+          "isLast": false,
+          "path": "/docs/4.13.0",
+          "mainDocId": "overview/overview",
+          "docs": [
+            {
+              "id": "admin/autorecovery",
+              "path": "/docs/4.13.0/admin/autorecovery",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "admin/bookies",
+              "path": "/docs/4.13.0/admin/bookies",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "admin/decomission",
+              "path": "/docs/4.13.0/admin/decomission",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "admin/geo-replication",
+              "path": "/docs/4.13.0/admin/geo-replication"
+            },
+            {
+              "id": "admin/http",
+              "path": "/docs/4.13.0/admin/http",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "admin/metrics",
+              "path": "/docs/4.13.0/admin/metrics",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "admin/perf",
+              "path": "/docs/4.13.0/admin/perf"
+            },
+            {
+              "id": "admin/placement",
+              "path": "/docs/4.13.0/admin/placement"
+            },
+            {
+              "id": "admin/upgrade",
+              "path": "/docs/4.13.0/admin/upgrade",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "api/distributedlog-api",
+              "path": "/docs/4.13.0/api/distributedlog-api",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "api/ledger-adv-api",
+              "path": "/docs/4.13.0/api/ledger-adv-api",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "api/ledger-api",
+              "path": "/docs/4.13.0/api/ledger-api",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/4.13.0/api/overview",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "deployment/dcos",
+              "path": "/docs/4.13.0/deployment/dcos",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "deployment/kubernetes",
+              "path": "/docs/4.13.0/deployment/kubernetes",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "deployment/manual",
+              "path": "/docs/4.13.0/deployment/manual",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "development/codebase",
+              "path": "/docs/4.13.0/development/codebase"
+            },
+            {
+              "id": "development/protocol",
+              "path": "/docs/4.13.0/development/protocol",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "getting-started/concepts",
+              "path": "/docs/4.13.0/getting-started/concepts",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/4.13.0/getting-started/installation",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "getting-started/run-locally",
+              "path": "/docs/4.13.0/getting-started/run-locally",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "overview/overview",
+              "path": "/docs/4.13.0/overview/",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/4.13.0/reference/cli",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "reference/config",
+              "path": "/docs/4.13.0/reference/config",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "reference/metrics",
+              "path": "/docs/4.13.0/reference/metrics"
+            },
+            {
+              "id": "security/overview",
+              "path": "/docs/4.13.0/security/overview",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "security/sasl",
+              "path": "/docs/4.13.0/security/sasl",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "security/tls",
+              "path": "/docs/4.13.0/security/tls",
+              "sidebar": "version-4.13.0/docsSidebar"
+            },
+            {
+              "id": "security/zookeeper",
+              "path": "/docs/4.13.0/security/zookeeper",
+              "sidebar": "version-4.13.0/docsSidebar"
+            }
+          ],
+          "sidebars": {
+            "version-4.13.0/docsSidebar": {
+              "link": {
+                "path": "/docs/4.13.0/overview/",
+                "label": "Overview"
+              }
+            }
+          }
+        },
+        {
+          "name": "4.12.1",
+          "label": "4.12.1",
+          "isLast": false,
+          "path": "/docs/4.12.1",
+          "mainDocId": "overview/overview",
+          "docs": [
+            {
+              "id": "admin/autorecovery",
+              "path": "/docs/4.12.1/admin/autorecovery",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "admin/bookies",
+              "path": "/docs/4.12.1/admin/bookies",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "admin/decomission",
+              "path": "/docs/4.12.1/admin/decomission",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "admin/geo-replication",
+              "path": "/docs/4.12.1/admin/geo-replication"
+            },
+            {
+              "id": "admin/http",
+              "path": "/docs/4.12.1/admin/http",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "admin/metrics",
+              "path": "/docs/4.12.1/admin/metrics",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "admin/perf",
+              "path": "/docs/4.12.1/admin/perf"
+            },
+            {
+              "id": "admin/placement",
+              "path": "/docs/4.12.1/admin/placement"
+            },
+            {
+              "id": "admin/upgrade",
+              "path": "/docs/4.12.1/admin/upgrade",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "api/distributedlog-api",
+              "path": "/docs/4.12.1/api/distributedlog-api",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "api/ledger-adv-api",
+              "path": "/docs/4.12.1/api/ledger-adv-api",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "api/ledger-api",
+              "path": "/docs/4.12.1/api/ledger-api",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/4.12.1/api/overview",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "deployment/dcos",
+              "path": "/docs/4.12.1/deployment/dcos",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "deployment/kubernetes",
+              "path": "/docs/4.12.1/deployment/kubernetes",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "deployment/manual",
+              "path": "/docs/4.12.1/deployment/manual",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "development/codebase",
+              "path": "/docs/4.12.1/development/codebase"
+            },
+            {
+              "id": "development/protocol",
+              "path": "/docs/4.12.1/development/protocol",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "getting-started/concepts",
+              "path": "/docs/4.12.1/getting-started/concepts",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/4.12.1/getting-started/installation",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "getting-started/run-locally",
+              "path": "/docs/4.12.1/getting-started/run-locally",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "overview/overview",
+              "path": "/docs/4.12.1/overview/",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/4.12.1/reference/cli",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "reference/config",
+              "path": "/docs/4.12.1/reference/config",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "reference/metrics",
+              "path": "/docs/4.12.1/reference/metrics"
+            },
+            {
+              "id": "security/overview",
+              "path": "/docs/4.12.1/security/overview",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "security/sasl",
+              "path": "/docs/4.12.1/security/sasl",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "security/tls",
+              "path": "/docs/4.12.1/security/tls",
+              "sidebar": "version-4.12.1/docsSidebar"
+            },
+            {
+              "id": "security/zookeeper",
+              "path": "/docs/4.12.1/security/zookeeper",
+              "sidebar": "version-4.12.1/docsSidebar"
+            }
+          ],
+          "sidebars": {
+            "version-4.12.1/docsSidebar": {
+              "link": {
+                "path": "/docs/4.12.1/overview/",
+                "label": "Overview"
+              }
+            }
+          }
+        },
+        {
+          "name": "4.11.1",
+          "label": "4.11.1",
+          "isLast": false,
+          "path": "/docs/4.11.1",
+          "mainDocId": "overview/overview",
+          "docs": [
+            {
+              "id": "admin/autorecovery",
+              "path": "/docs/4.11.1/admin/autorecovery",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "admin/bookies",
+              "path": "/docs/4.11.1/admin/bookies",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "admin/decomission",
+              "path": "/docs/4.11.1/admin/decomission",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "admin/geo-replication",
+              "path": "/docs/4.11.1/admin/geo-replication"
+            },
+            {
+              "id": "admin/http",
+              "path": "/docs/4.11.1/admin/http",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "admin/metrics",
+              "path": "/docs/4.11.1/admin/metrics",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "admin/perf",
+              "path": "/docs/4.11.1/admin/perf"
+            },
+            {
+              "id": "admin/placement",
+              "path": "/docs/4.11.1/admin/placement"
+            },
+            {
+              "id": "admin/upgrade",
+              "path": "/docs/4.11.1/admin/upgrade",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "api/distributedlog-api",
+              "path": "/docs/4.11.1/api/distributedlog-api",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "api/ledger-adv-api",
+              "path": "/docs/4.11.1/api/ledger-adv-api",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "api/ledger-api",
+              "path": "/docs/4.11.1/api/ledger-api",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/4.11.1/api/overview",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "deployment/dcos",
+              "path": "/docs/4.11.1/deployment/dcos",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "deployment/kubernetes",
+              "path": "/docs/4.11.1/deployment/kubernetes",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "deployment/manual",
+              "path": "/docs/4.11.1/deployment/manual",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "development/codebase",
+              "path": "/docs/4.11.1/development/codebase"
+            },
+            {
+              "id": "development/protocol",
+              "path": "/docs/4.11.1/development/protocol",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "getting-started/concepts",
+              "path": "/docs/4.11.1/getting-started/concepts",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/4.11.1/getting-started/installation",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "getting-started/run-locally",
+              "path": "/docs/4.11.1/getting-started/run-locally",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "overview/overview",
+              "path": "/docs/4.11.1/overview/",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/4.11.1/reference/cli",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "reference/config",
+              "path": "/docs/4.11.1/reference/config",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "reference/metrics",
+              "path": "/docs/4.11.1/reference/metrics"
+            },
+            {
+              "id": "security/overview",
+              "path": "/docs/4.11.1/security/overview",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "security/sasl",
+              "path": "/docs/4.11.1/security/sasl",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "security/tls",
+              "path": "/docs/4.11.1/security/tls",
+              "sidebar": "version-4.11.1/docsSidebar"
+            },
+            {
+              "id": "security/zookeeper",
+              "path": "/docs/4.11.1/security/zookeeper",
+              "sidebar": "version-4.11.1/docsSidebar"
+            }
+          ],
+          "sidebars": {
+            "version-4.11.1/docsSidebar": {
+              "link": {
+                "path": "/docs/4.11.1/overview/",
+                "label": "Overview"
+              }
+            }
+          }
+        },
+        {
+          "name": "4.10.0",
+          "label": "4.10.0",
+          "isLast": false,
+          "path": "/docs/4.10.0",
+          "mainDocId": "overview/overview",
+          "docs": [
+            {
+              "id": "admin/autorecovery",
+              "path": "/docs/4.10.0/admin/autorecovery",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "admin/bookies",
+              "path": "/docs/4.10.0/admin/bookies",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "admin/geo-replication",
+              "path": "/docs/4.10.0/admin/geo-replication"
+            },
+            {
+              "id": "admin/http",
+              "path": "/docs/4.10.0/admin/http",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "admin/metrics",
+              "path": "/docs/4.10.0/admin/metrics",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "admin/perf",
+              "path": "/docs/4.10.0/admin/perf"
+            },
+            {
+              "id": "admin/placement",
+              "path": "/docs/4.10.0/admin/placement"
+            },
+            {
+              "id": "admin/upgrade",
+              "path": "/docs/4.10.0/admin/upgrade",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "api/distributedlog-api",
+              "path": "/docs/4.10.0/api/distributedlog-api",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "api/ledger-adv-api",
+              "path": "/docs/4.10.0/api/ledger-adv-api",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "api/ledger-api",
+              "path": "/docs/4.10.0/api/ledger-api",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/4.10.0/api/overview",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "deployment/dcos",
+              "path": "/docs/4.10.0/deployment/dcos",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "deployment/kubernetes",
+              "path": "/docs/4.10.0/deployment/kubernetes",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "deployment/manual",
+              "path": "/docs/4.10.0/deployment/manual",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "development/codebase",
+              "path": "/docs/4.10.0/development/codebase"
+            },
+            {
+              "id": "development/protocol",
+              "path": "/docs/4.10.0/development/protocol",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "getting-started/concepts",
+              "path": "/docs/4.10.0/getting-started/concepts",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/4.10.0/getting-started/installation",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "getting-started/run-locally",
+              "path": "/docs/4.10.0/getting-started/run-locally",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "overview/overview",
+              "path": "/docs/4.10.0/overview/",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/4.10.0/reference/cli",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "reference/config",
+              "path": "/docs/4.10.0/reference/config",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "reference/metrics",
+              "path": "/docs/4.10.0/reference/metrics"
+            },
+            {
+              "id": "security/overview",
+              "path": "/docs/4.10.0/security/overview",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "security/sasl",
+              "path": "/docs/4.10.0/security/sasl",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "security/tls",
+              "path": "/docs/4.10.0/security/tls",
+              "sidebar": "version-4.10.0/docsSidebar"
+            },
+            {
+              "id": "security/zookeeper",
+              "path": "/docs/4.10.0/security/zookeeper",
+              "sidebar": "version-4.10.0/docsSidebar"
+            }
+          ],
+          "sidebars": {
+            "version-4.10.0/docsSidebar": {
+              "link": {
+                "path": "/docs/4.10.0/overview/",
+                "label": "Overview"
+              }
+            }
+          }
+        },
+        {
+          "name": "4.9.2",
+          "label": "4.9.2",
+          "isLast": false,
+          "path": "/docs/4.9.2",
+          "mainDocId": "overview/overview",
+          "docs": [
+            {
+              "id": "admin/autorecovery",
+              "path": "/docs/4.9.2/admin/autorecovery",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "admin/bookies",
+              "path": "/docs/4.9.2/admin/bookies",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "admin/geo-replication",
+              "path": "/docs/4.9.2/admin/geo-replication"
+            },
+            {
+              "id": "admin/http",
+              "path": "/docs/4.9.2/admin/http",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "admin/metrics",
+              "path": "/docs/4.9.2/admin/metrics",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "admin/perf",
+              "path": "/docs/4.9.2/admin/perf"
+            },
+            {
+              "id": "admin/placement",
+              "path": "/docs/4.9.2/admin/placement"
+            },
+            {
+              "id": "admin/upgrade",
+              "path": "/docs/4.9.2/admin/upgrade",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "api/distributedlog-api",
+              "path": "/docs/4.9.2/api/distributedlog-api",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "api/ledger-adv-api",
+              "path": "/docs/4.9.2/api/ledger-adv-api",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "api/ledger-api",
+              "path": "/docs/4.9.2/api/ledger-api",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/4.9.2/api/overview",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "deployment/dcos",
+              "path": "/docs/4.9.2/deployment/dcos",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "deployment/kubernetes",
+              "path": "/docs/4.9.2/deployment/kubernetes",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "deployment/manual",
+              "path": "/docs/4.9.2/deployment/manual",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "development/codebase",
+              "path": "/docs/4.9.2/development/codebase"
+            },
+            {
+              "id": "development/protocol",
+              "path": "/docs/4.9.2/development/protocol",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "getting-started/concepts",
+              "path": "/docs/4.9.2/getting-started/concepts",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/4.9.2/getting-started/installation",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "getting-started/run-locally",
+              "path": "/docs/4.9.2/getting-started/run-locally",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "overview/overview",
+              "path": "/docs/4.9.2/overview/",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/4.9.2/reference/cli",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "reference/config",
+              "path": "/docs/4.9.2/reference/config",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "reference/metrics",
+              "path": "/docs/4.9.2/reference/metrics"
+            },
+            {
+              "id": "security/overview",
+              "path": "/docs/4.9.2/security/overview",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "security/sasl",
+              "path": "/docs/4.9.2/security/sasl",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "security/tls",
+              "path": "/docs/4.9.2/security/tls",
+              "sidebar": "version-4.9.2/docsSidebar"
+            },
+            {
+              "id": "security/zookeeper",
+              "path": "/docs/4.9.2/security/zookeeper",
+              "sidebar": "version-4.9.2/docsSidebar"
+            }
+          ],
+          "sidebars": {
+            "version-4.9.2/docsSidebar": {
+              "link": {
+                "path": "/docs/4.9.2/overview/",
+                "label": "Overview"
+              }
+            }
+          }
+        },
+        {
+          "name": "4.8.2",
+          "label": "4.8.2",
+          "isLast": false,
+          "path": "/docs/4.8.2",
+          "mainDocId": "overview/overview",
+          "docs": [
+            {
+              "id": "admin/autorecovery",
+              "path": "/docs/4.8.2/admin/autorecovery",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "admin/bookies",
+              "path": "/docs/4.8.2/admin/bookies",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "admin/geo-replication",
+              "path": "/docs/4.8.2/admin/geo-replication"
+            },
+            {
+              "id": "admin/http",
+              "path": "/docs/4.8.2/admin/http",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "admin/metrics",
+              "path": "/docs/4.8.2/admin/metrics",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "admin/perf",
+              "path": "/docs/4.8.2/admin/perf"
+            },
+            {
+              "id": "admin/placement",
+              "path": "/docs/4.8.2/admin/placement"
+            },
+            {
+              "id": "admin/upgrade",
+              "path": "/docs/4.8.2/admin/upgrade",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "api/distributedlog-api",
+              "path": "/docs/4.8.2/api/distributedlog-api",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "api/ledger-adv-api",
+              "path": "/docs/4.8.2/api/ledger-adv-api",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "api/ledger-api",
+              "path": "/docs/4.8.2/api/ledger-api",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/4.8.2/api/overview",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "deployment/dcos",
+              "path": "/docs/4.8.2/deployment/dcos",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "deployment/kubernetes",
+              "path": "/docs/4.8.2/deployment/kubernetes",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "deployment/manual",
+              "path": "/docs/4.8.2/deployment/manual",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "development/codebase",
+              "path": "/docs/4.8.2/development/codebase"
+            },
+            {
+              "id": "development/protocol",
+              "path": "/docs/4.8.2/development/protocol",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "getting-started/concepts",
+              "path": "/docs/4.8.2/getting-started/concepts",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/4.8.2/getting-started/installation",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "getting-started/run-locally",
+              "path": "/docs/4.8.2/getting-started/run-locally",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "overview/overview",
+              "path": "/docs/4.8.2/overview/",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/4.8.2/reference/cli",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "reference/config",
+              "path": "/docs/4.8.2/reference/config",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "reference/metrics",
+              "path": "/docs/4.8.2/reference/metrics"
+            },
+            {
+              "id": "security/overview",
+              "path": "/docs/4.8.2/security/overview",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "security/sasl",
+              "path": "/docs/4.8.2/security/sasl",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "security/tls",
+              "path": "/docs/4.8.2/security/tls",
+              "sidebar": "version-4.8.2/docsSidebar"
+            },
+            {
+              "id": "security/zookeeper",
+              "path": "/docs/4.8.2/security/zookeeper",
+              "sidebar": "version-4.8.2/docsSidebar"
+            }
+          ],
+          "sidebars": {
+            "version-4.8.2/docsSidebar": {
+              "link": {
+                "path": "/docs/4.8.2/overview/",
+                "label": "Overview"
+              }
+            }
+          }
+        },
+        {
+          "name": "4.7.3",
+          "label": "4.7.3",
+          "isLast": false,
+          "path": "/docs/4.7.3",
+          "mainDocId": "overview/overview",
+          "docs": [
+            {
+              "id": "admin/autorecovery",
+              "path": "/docs/4.7.3/admin/autorecovery",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "admin/bookies",
+              "path": "/docs/4.7.3/admin/bookies",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "admin/geo-replication",
+              "path": "/docs/4.7.3/admin/geo-replication"
+            },
+            {
+              "id": "admin/http",
+              "path": "/docs/4.7.3/admin/http",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "admin/metrics",
+              "path": "/docs/4.7.3/admin/metrics",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "admin/perf",
+              "path": "/docs/4.7.3/admin/perf"
+            },
+            {
+              "id": "admin/placement",
+              "path": "/docs/4.7.3/admin/placement"
+            },
+            {
+              "id": "admin/upgrade",
+              "path": "/docs/4.7.3/admin/upgrade",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "api/distributedlog-api",
+              "path": "/docs/4.7.3/api/distributedlog-api",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "api/ledger-adv-api",
+              "path": "/docs/4.7.3/api/ledger-adv-api",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "api/ledger-api",
+              "path": "/docs/4.7.3/api/ledger-api",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/4.7.3/api/overview",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "deployment/dcos",
+              "path": "/docs/4.7.3/deployment/dcos",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "deployment/kubernetes",
+              "path": "/docs/4.7.3/deployment/kubernetes",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "deployment/manual",
+              "path": "/docs/4.7.3/deployment/manual",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "development/codebase",
+              "path": "/docs/4.7.3/development/codebase"
+            },
+            {
+              "id": "development/protocol",
+              "path": "/docs/4.7.3/development/protocol",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "getting-started/concepts",
+              "path": "/docs/4.7.3/getting-started/concepts",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/4.7.3/getting-started/installation",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "getting-started/run-locally",
+              "path": "/docs/4.7.3/getting-started/run-locally",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "overview/overview",
+              "path": "/docs/4.7.3/overview/",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/4.7.3/reference/cli",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "reference/config",
+              "path": "/docs/4.7.3/reference/config",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "reference/metrics",
+              "path": "/docs/4.7.3/reference/metrics"
+            },
+            {
+              "id": "security/overview",
+              "path": "/docs/4.7.3/security/overview",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "security/sasl",
+              "path": "/docs/4.7.3/security/sasl",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "security/tls",
+              "path": "/docs/4.7.3/security/tls",
+              "sidebar": "version-4.7.3/docsSidebar"
+            },
+            {
+              "id": "security/zookeeper",
+              "path": "/docs/4.7.3/security/zookeeper",
+              "sidebar": "version-4.7.3/docsSidebar"
+            }
+          ],
+          "sidebars": {
+            "version-4.7.3/docsSidebar": {
+              "link": {
+                "path": "/docs/4.7.3/overview/",
+                "label": "Overview"
+              }
+            }
+          }
+        },
+        {
+          "name": "4.6.2",
+          "label": "4.6.2",
+          "isLast": false,
+          "path": "/docs/4.6.2",
+          "mainDocId": "overview/overview",
+          "docs": [
+            {
+              "id": "admin/autorecovery",
+              "path": "/docs/4.6.2/admin/autorecovery",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "admin/bookies",
+              "path": "/docs/4.6.2/admin/bookies",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "admin/geo-replication",
+              "path": "/docs/4.6.2/admin/geo-replication"
+            },
+            {
+              "id": "admin/http",
+              "path": "/docs/4.6.2/admin/http",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "admin/metrics",
+              "path": "/docs/4.6.2/admin/metrics",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "admin/perf",
+              "path": "/docs/4.6.2/admin/perf"
+            },
+            {
+              "id": "admin/placement",
+              "path": "/docs/4.6.2/admin/placement"
+            },
+            {
+              "id": "admin/upgrade",
+              "path": "/docs/4.6.2/admin/upgrade",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "api/distributedlog-api",
+              "path": "/docs/4.6.2/api/distributedlog-api",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "api/ledger-adv-api",
+              "path": "/docs/4.6.2/api/ledger-adv-api",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "api/ledger-api",
+              "path": "/docs/4.6.2/api/ledger-api",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/4.6.2/api/overview",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "deployment/dcos",
+              "path": "/docs/4.6.2/deployment/dcos",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "deployment/kubernetes",
+              "path": "/docs/4.6.2/deployment/kubernetes",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "deployment/manual",
+              "path": "/docs/4.6.2/deployment/manual",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "development/codebase",
+              "path": "/docs/4.6.2/development/codebase"
+            },
+            {
+              "id": "development/protocol",
+              "path": "/docs/4.6.2/development/protocol",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "getting-started/concepts",
+              "path": "/docs/4.6.2/getting-started/concepts",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/4.6.2/getting-started/installation",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "getting-started/run-locally",
+              "path": "/docs/4.6.2/getting-started/run-locally",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "overview/overview",
+              "path": "/docs/4.6.2/overview/",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/4.6.2/reference/cli",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "reference/config",
+              "path": "/docs/4.6.2/reference/config",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "reference/metrics",
+              "path": "/docs/4.6.2/reference/metrics"
+            },
+            {
+              "id": "security/overview",
+              "path": "/docs/4.6.2/security/overview",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "security/sasl",
+              "path": "/docs/4.6.2/security/sasl",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "security/tls",
+              "path": "/docs/4.6.2/security/tls",
+              "sidebar": "version-4.6.2/docsSidebar"
+            },
+            {
+              "id": "security/zookeeper",
+              "path": "/docs/4.6.2/security/zookeeper",
+              "sidebar": "version-4.6.2/docsSidebar"
+            }
+          ],
+          "sidebars": {
+            "version-4.6.2/docsSidebar": {
+              "link": {
+                "path": "/docs/4.6.2/overview/",
+                "label": "Overview"
+              }
+            }
+          }
+        },
+        {
+          "name": "4.5.1",
+          "label": "4.5.1",
+          "isLast": false,
+          "path": "/docs/4.5.1",
+          "mainDocId": "overview/overview",
+          "docs": [
+            {
+              "id": "admin/autorecovery",
+              "path": "/docs/4.5.1/admin/autorecovery",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "admin/bookies",
+              "path": "/docs/4.5.1/admin/bookies",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "admin/geo-replication",
+              "path": "/docs/4.5.1/admin/geo-replication"
+            },
+            {
+              "id": "admin/metrics",
+              "path": "/docs/4.5.1/admin/metrics",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "admin/perf",
+              "path": "/docs/4.5.1/admin/perf"
+            },
+            {
+              "id": "admin/placement",
+              "path": "/docs/4.5.1/admin/placement"
+            },
+            {
+              "id": "admin/upgrade",
+              "path": "/docs/4.5.1/admin/upgrade",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "api/distributedlog-api",
+              "path": "/docs/4.5.1/api/distributedlog-api",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "api/ledger-adv-api",
+              "path": "/docs/4.5.1/api/ledger-adv-api",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "api/ledger-api",
+              "path": "/docs/4.5.1/api/ledger-api",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "api/overview",
+              "path": "/docs/4.5.1/api/overview",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "deployment/dcos",
+              "path": "/docs/4.5.1/deployment/dcos",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "deployment/kubernetes",
+              "path": "/docs/4.5.1/deployment/kubernetes",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "deployment/manual",
+              "path": "/docs/4.5.1/deployment/manual",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "development/codebase",
+              "path": "/docs/4.5.1/development/codebase"
+            },
+            {
+              "id": "development/protocol",
+              "path": "/docs/4.5.1/development/protocol",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "getting-started/concepts",
+              "path": "/docs/4.5.1/getting-started/concepts",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "getting-started/installation",
+              "path": "/docs/4.5.1/getting-started/installation",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "getting-started/run-locally",
+              "path": "/docs/4.5.1/getting-started/run-locally",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "overview/overview",
+              "path": "/docs/4.5.1/overview/",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "reference/cli",
+              "path": "/docs/4.5.1/reference/cli",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "reference/config",
+              "path": "/docs/4.5.1/reference/config",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "reference/metrics",
+              "path": "/docs/4.5.1/reference/metrics"
+            },
+            {
+              "id": "security/overview",
+              "path": "/docs/4.5.1/security/overview",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "security/sasl",
+              "path": "/docs/4.5.1/security/sasl",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "security/tls",
+              "path": "/docs/4.5.1/security/tls",
+              "sidebar": "version-4.5.1/docsSidebar"
+            },
+            {
+              "id": "security/zookeeper",
+              "path": "/docs/4.5.1/security/zookeeper",
+              "sidebar": "version-4.5.1/docsSidebar"
+            }
+          ],
+          "sidebars": {
+            "version-4.5.1/docsSidebar": {
+              "link": {
+                "path": "/docs/4.5.1/overview/",
+                "label": "Overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": false
+    }
+  }
+}

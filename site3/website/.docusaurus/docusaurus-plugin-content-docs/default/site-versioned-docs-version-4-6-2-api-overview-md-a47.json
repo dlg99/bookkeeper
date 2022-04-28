@@ -1,0 +1,25 @@
+{
+  "unversionedId": "api/overview",
+  "id": "version-4.6.2/api/overview",
+  "title": "BookKeeper API",
+  "description": "BookKeeper offers a few APIs that applications can use to interact with it:",
+  "source": "@site/versioned_docs/version-4.6.2/api/overview.md",
+  "sourceDirName": "api",
+  "slug": "/api/overview",
+  "permalink": "/docs/4.6.2/api/overview",
+  "tags": [],
+  "version": "4.6.2",
+  "frontMatter": {
+    "id": "overview",
+    "title": "BookKeeper API"
+  },
+  "sidebar": "version-4.6.2/docsSidebar",
+  "previous": {
+    "title": "BookKeeper Admin REST API",
+    "permalink": "/docs/4.6.2/admin/http"
+  },
+  "next": {
+    "title": "The Ledger API",
+    "permalink": "/docs/4.6.2/api/ledger-api"
+  }
+}

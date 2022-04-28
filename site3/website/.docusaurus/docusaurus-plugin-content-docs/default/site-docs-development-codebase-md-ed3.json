@@ -1,0 +1,16 @@
+{
+  "unversionedId": "development/codebase",
+  "id": "development/codebase",
+  "title": "The BookKeeper codebase",
+  "description": "",
+  "source": "@site/docs/development/codebase.md",
+  "sourceDirName": "development",
+  "slug": "/development/codebase",
+  "permalink": "/docs/next/development/codebase",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "codebase",
+    "title": "The BookKeeper codebase"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "admin/metrics",
+  "id": "version-4.7.3/admin/metrics",
+  "title": "Metric collection",
+  "description": "BookKeeper enables metrics collection through a variety of stats providers.",
+  "source": "@site/versioned_docs/version-4.7.3/admin/metrics.md",
+  "sourceDirName": "admin",
+  "slug": "/admin/metrics",
+  "permalink": "/docs/4.7.3/admin/metrics",
+  "tags": [],
+  "version": "4.7.3",
+  "frontMatter": {
+    "id": "metrics",
+    "title": "Metric collection"
+  },
+  "sidebar": "version-4.7.3/docsSidebar",
+  "previous": {
+    "title": "Using AutoRecovery",
+    "permalink": "/docs/4.7.3/admin/autorecovery"
+  },
+  "next": {
+    "title": "Upgrade",
+    "permalink": "/docs/4.7.3/admin/upgrade"
+  }
+}

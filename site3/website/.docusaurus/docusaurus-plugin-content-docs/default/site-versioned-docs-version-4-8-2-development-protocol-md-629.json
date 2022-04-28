@@ -1,0 +1,25 @@
+{
+  "unversionedId": "development/protocol",
+  "id": "version-4.8.2/development/protocol",
+  "title": "The BookKeeper protocol",
+  "description": "BookKeeper uses a special replication protocol for guaranteeing persistent storage of entries in an ensemble of bookies.",
+  "source": "@site/versioned_docs/version-4.8.2/development/protocol.md",
+  "sourceDirName": "development",
+  "slug": "/development/protocol",
+  "permalink": "/docs/4.8.2/development/protocol",
+  "tags": [],
+  "version": "4.8.2",
+  "frontMatter": {
+    "id": "protocol",
+    "title": "The BookKeeper protocol"
+  },
+  "sidebar": "version-4.8.2/docsSidebar",
+  "previous": {
+    "title": "ZooKeeper Authentication",
+    "permalink": "/docs/4.8.2/security/zookeeper"
+  },
+  "next": {
+    "title": "BookKeeper configuration",
+    "permalink": "/docs/4.8.2/reference/config"
+  }
+}

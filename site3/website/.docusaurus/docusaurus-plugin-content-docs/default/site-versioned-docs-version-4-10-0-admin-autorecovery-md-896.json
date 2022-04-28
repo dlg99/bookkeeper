@@ -1,0 +1,25 @@
+{
+  "unversionedId": "admin/autorecovery",
+  "id": "version-4.10.0/admin/autorecovery",
+  "title": "Using AutoRecovery",
+  "description": "When a bookie crashes, all ledgers on that bookie become under-replicated. In order to bring all ledgers in your BookKeeper cluster back to full replication, you'll need to recover the data from any offline bookies. There are two ways to recover bookies' data:",
+  "source": "@site/versioned_docs/version-4.10.0/admin/autorecovery.md",
+  "sourceDirName": "admin",
+  "slug": "/admin/autorecovery",
+  "permalink": "/docs/4.10.0/admin/autorecovery",
+  "tags": [],
+  "version": "4.10.0",
+  "frontMatter": {
+    "id": "autorecovery",
+    "title": "Using AutoRecovery"
+  },
+  "sidebar": "version-4.10.0/docsSidebar",
+  "previous": {
+    "title": "BookKeeper administration",
+    "permalink": "/docs/4.10.0/admin/bookies"
+  },
+  "next": {
+    "title": "Metric collection",
+    "permalink": "/docs/4.10.0/admin/metrics"
+  }
+}

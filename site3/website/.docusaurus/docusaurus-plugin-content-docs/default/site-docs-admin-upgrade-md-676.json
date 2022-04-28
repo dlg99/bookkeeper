@@ -1,0 +1,25 @@
+{
+  "unversionedId": "admin/upgrade",
+  "id": "admin/upgrade",
+  "title": "Upgrade",
+  "description": "If you have questions about upgrades (or need help), please feel free to reach out to us by mailing list or Slack Channel.",
+  "source": "@site/docs/admin/upgrade.md",
+  "sourceDirName": "admin",
+  "slug": "/admin/upgrade",
+  "permalink": "/docs/next/admin/upgrade",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "upgrade",
+    "title": "Upgrade"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Metric collection",
+    "permalink": "/docs/next/admin/metrics"
+  },
+  "next": {
+    "title": "BookKeeper Admin REST API",
+    "permalink": "/docs/next/admin/http"
+  }
+}

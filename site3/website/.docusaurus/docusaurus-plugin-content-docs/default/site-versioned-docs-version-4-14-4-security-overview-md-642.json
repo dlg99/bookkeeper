@@ -1,0 +1,25 @@
+{
+  "unversionedId": "security/overview",
+  "id": "version-4.14.4/security/overview",
+  "title": "BookKeeper Security",
+  "description": "In the 4.5.0 release, the BookKeeper community added a number of features that can be used, together or separately, to secure a BookKeeper cluster.",
+  "source": "@site/versioned_docs/version-4.14.4/security/overview.md",
+  "sourceDirName": "security",
+  "slug": "/security/overview",
+  "permalink": "/docs/security/overview",
+  "tags": [],
+  "version": "4.14.4",
+  "frontMatter": {
+    "id": "overview",
+    "title": "BookKeeper Security"
+  },
+  "sidebar": "version-4.14.4/docsSidebar",
+  "previous": {
+    "title": "DistributedLog",
+    "permalink": "/docs/api/distributedlog-api"
+  },
+  "next": {
+    "title": "Encryption and Authentication using TLS",
+    "permalink": "/docs/security/tls"
+  }
+}

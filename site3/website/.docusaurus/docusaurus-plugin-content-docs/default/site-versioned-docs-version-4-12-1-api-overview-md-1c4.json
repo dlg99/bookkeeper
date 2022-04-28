@@ -1,0 +1,25 @@
+{
+  "unversionedId": "api/overview",
+  "id": "version-4.12.1/api/overview",
+  "title": "BookKeeper API",
+  "description": "BookKeeper offers a few APIs that applications can use to interact with it:",
+  "source": "@site/versioned_docs/version-4.12.1/api/overview.md",
+  "sourceDirName": "api",
+  "slug": "/api/overview",
+  "permalink": "/docs/4.12.1/api/overview",
+  "tags": [],
+  "version": "4.12.1",
+  "frontMatter": {
+    "id": "overview",
+    "title": "BookKeeper API"
+  },
+  "sidebar": "version-4.12.1/docsSidebar",
+  "previous": {
+    "title": "Decommission Bookies",
+    "permalink": "/docs/4.12.1/admin/decomission"
+  },
+  "next": {
+    "title": "The Ledger API",
+    "permalink": "/docs/4.12.1/api/ledger-api"
+  }
+}

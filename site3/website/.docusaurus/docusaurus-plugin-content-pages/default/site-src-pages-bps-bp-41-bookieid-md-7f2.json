@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/bps/BP-41-bookieid",
+  "source": "@site/src/pages/bps/BP-41-bookieid.md",
+  "title": "BP-41: Separate BookieId from Bookie Network Address",
+  "description": "Motivation",
+  "frontMatter": {}
+}

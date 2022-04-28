@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/bps/BP-28-etcd-as-metadata-store",
+  "source": "@site/src/pages/bps/BP-28-etcd-as-metadata-store.md",
+  "title": "BP-28: use etcd as metadata store",
+  "description": "Motivation",
+  "frontMatter": {}
+}

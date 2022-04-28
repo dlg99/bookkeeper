@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/bps/BP-20-github-workflow-for-bookkeeper-proposals",
+  "source": "@site/src/pages/bps/BP-20-github-workflow-for-bookkeeper-proposals.md",
+  "title": "BP-20: github workflow for bookkeeper proposals",
+  "description": "Motivation",
+  "frontMatter": {}
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "getting-started/concepts",
+  "id": "getting-started/concepts",
+  "title": "BookKeeper concepts and architecture",
+  "description": "BookKeeper is a service that provides persistent storage of streams of log entries---aka records---in sequences called ledgers. BookKeeper replicates stored entries across multiple servers.",
+  "source": "@site/docs/getting-started/concepts.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/concepts",
+  "permalink": "/docs/next/getting-started/concepts",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "concepts",
+    "title": "BookKeeper concepts and architecture"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Run bookies locally",
+    "permalink": "/docs/next/getting-started/run-locally"
+  },
+  "next": {
+    "title": "Manual deployment",
+    "permalink": "/docs/next/deployment/manual"
+  }
+}

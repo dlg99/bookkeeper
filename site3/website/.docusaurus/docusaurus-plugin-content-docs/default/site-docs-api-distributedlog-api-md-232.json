@@ -1,0 +1,25 @@
+{
+  "unversionedId": "api/distributedlog-api",
+  "id": "api/distributedlog-api",
+  "title": "DistributedLog",
+  "description": "DistributedLog began its life as a separate project under the Apache Foundation. It was merged into BookKeeper in 2017.",
+  "source": "@site/docs/api/distributedlog-api.md",
+  "sourceDirName": "api",
+  "slug": "/api/distributedlog-api",
+  "permalink": "/docs/next/api/distributedlog-api",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "distributedlog-api",
+    "title": "DistributedLog"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "The Advanced Ledger API",
+    "permalink": "/docs/next/api/ledger-adv-api"
+  },
+  "next": {
+    "title": "BookKeeper Security",
+    "permalink": "/docs/next/security/overview"
+  }
+}

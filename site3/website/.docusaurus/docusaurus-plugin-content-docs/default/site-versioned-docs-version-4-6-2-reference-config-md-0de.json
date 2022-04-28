@@ -1,0 +1,25 @@
+{
+  "unversionedId": "reference/config",
+  "id": "version-4.6.2/reference/config",
+  "title": "BookKeeper configuration",
+  "description": "The table below lists parameters that you can set to configure bookies. All configuration takes place in the bk_server.conf file in the bookkeeper-server/conf directory of your BookKeeper installation.",
+  "source": "@site/versioned_docs/version-4.6.2/reference/config.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/config",
+  "permalink": "/docs/4.6.2/reference/config",
+  "tags": [],
+  "version": "4.6.2",
+  "frontMatter": {
+    "id": "config",
+    "title": "BookKeeper configuration"
+  },
+  "sidebar": "version-4.6.2/docsSidebar",
+  "previous": {
+    "title": "The BookKeeper protocol",
+    "permalink": "/docs/4.6.2/development/protocol"
+  },
+  "next": {
+    "title": "BookKeeper CLI tool reference",
+    "permalink": "/docs/4.6.2/reference/cli"
+  }
+}

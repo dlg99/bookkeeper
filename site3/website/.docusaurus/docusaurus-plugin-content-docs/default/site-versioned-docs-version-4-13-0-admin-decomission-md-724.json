@@ -1,0 +1,25 @@
+{
+  "unversionedId": "admin/decomission",
+  "id": "version-4.13.0/admin/decomission",
+  "title": "Decommission Bookies",
+  "description": "In case the user wants to decommission a bookie, the following process is useful to follow in order to verify if the",
+  "source": "@site/versioned_docs/version-4.13.0/admin/decomission.md",
+  "sourceDirName": "admin",
+  "slug": "/admin/decomission",
+  "permalink": "/docs/4.13.0/admin/decomission",
+  "tags": [],
+  "version": "4.13.0",
+  "frontMatter": {
+    "id": "decomission",
+    "title": "Decommission Bookies"
+  },
+  "sidebar": "version-4.13.0/docsSidebar",
+  "previous": {
+    "title": "BookKeeper Admin REST API",
+    "permalink": "/docs/4.13.0/admin/http"
+  },
+  "next": {
+    "title": "BookKeeper API",
+    "permalink": "/docs/4.13.0/api/overview"
+  }
+}

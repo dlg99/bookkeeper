@@ -1,0 +1,25 @@
+{
+  "unversionedId": "admin/http",
+  "id": "version-4.7.3/admin/http",
+  "title": "BookKeeper Admin REST API",
+  "description": "This document introduces BookKeeper HTTP endpoints, which can be used for BookKeeper administration.",
+  "source": "@site/versioned_docs/version-4.7.3/admin/http.md",
+  "sourceDirName": "admin",
+  "slug": "/admin/http",
+  "permalink": "/docs/4.7.3/admin/http",
+  "tags": [],
+  "version": "4.7.3",
+  "frontMatter": {
+    "id": "http",
+    "title": "BookKeeper Admin REST API"
+  },
+  "sidebar": "version-4.7.3/docsSidebar",
+  "previous": {
+    "title": "Upgrade",
+    "permalink": "/docs/4.7.3/admin/upgrade"
+  },
+  "next": {
+    "title": "BookKeeper API",
+    "permalink": "/docs/4.7.3/api/overview"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "unversionedId": "security/sasl",
+  "id": "security/sasl",
+  "title": "Authentication using SASL",
+  "description": "Bookies support client authentication via SASL. Currently we only support GSSAPI (Kerberos). We will start",
+  "source": "@site/docs/security/sasl.md",
+  "sourceDirName": "security",
+  "slug": "/security/sasl",
+  "permalink": "/docs/next/security/sasl",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "sasl",
+    "title": "Authentication using SASL"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Encryption and Authentication using TLS",
+    "permalink": "/docs/next/security/tls"
+  },
+  "next": {
+    "title": "ZooKeeper Authentication",
+    "permalink": "/docs/next/security/zookeeper"
+  }
+}

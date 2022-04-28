@@ -1,0 +1,21 @@
+{
+  "unversionedId": "overview/overview",
+  "id": "version-4.8.2/overview/overview",
+  "title": "Apache BookKeeper 4.8.2",
+  "description": "<!--",
+  "source": "@site/versioned_docs/version-4.8.2/overview/overview.md",
+  "sourceDirName": "overview",
+  "slug": "/overview/",
+  "permalink": "/docs/4.8.2/overview/",
+  "tags": [],
+  "version": "4.8.2",
+  "frontMatter": {
+    "id": "overview",
+    "title": "Apache BookKeeper 4.8.2"
+  },
+  "sidebar": "version-4.8.2/docsSidebar",
+  "next": {
+    "title": "BookKeeper installation",
+    "permalink": "/docs/4.8.2/getting-started/installation"
+  }
+}

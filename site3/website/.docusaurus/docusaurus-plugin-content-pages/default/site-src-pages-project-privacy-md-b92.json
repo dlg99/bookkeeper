@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/project/privacy",
+  "source": "@site/src/pages/project/privacy.md",
+  "title": "Privacy policy",
+  "description": "Information about your use of this website is collected using server access logs and a tracking cookie. The collected information consists of the following:",
+  "frontMatter": {}
+}

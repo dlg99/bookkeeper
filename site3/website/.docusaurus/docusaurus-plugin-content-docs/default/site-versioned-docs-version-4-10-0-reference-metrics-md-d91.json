@@ -1,0 +1,16 @@
+{
+  "unversionedId": "reference/metrics",
+  "id": "version-4.10.0/reference/metrics",
+  "title": "BookKeeper metrics reference",
+  "description": "",
+  "source": "@site/versioned_docs/version-4.10.0/reference/metrics.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/metrics",
+  "permalink": "/docs/4.10.0/reference/metrics",
+  "tags": [],
+  "version": "4.10.0",
+  "frontMatter": {
+    "id": "metrics",
+    "title": "BookKeeper metrics reference"
+  }
+}

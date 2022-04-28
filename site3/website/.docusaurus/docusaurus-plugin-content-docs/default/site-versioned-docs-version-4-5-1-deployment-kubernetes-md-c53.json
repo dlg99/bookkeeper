@@ -1,0 +1,25 @@
+{
+  "unversionedId": "deployment/kubernetes",
+  "id": "version-4.5.1/deployment/kubernetes",
+  "title": "Deploying BookKeeper on Kubernetes",
+  "description": "",
+  "source": "@site/versioned_docs/version-4.5.1/deployment/kubernetes.md",
+  "sourceDirName": "deployment",
+  "slug": "/deployment/kubernetes",
+  "permalink": "/docs/4.5.1/deployment/kubernetes",
+  "tags": [],
+  "version": "4.5.1",
+  "frontMatter": {
+    "id": "kubernetes",
+    "title": "Deploying BookKeeper on Kubernetes"
+  },
+  "sidebar": "version-4.5.1/docsSidebar",
+  "previous": {
+    "title": "Deploying BookKeeper on DC/OS",
+    "permalink": "/docs/4.5.1/deployment/dcos"
+  },
+  "next": {
+    "title": "BookKeeper administration",
+    "permalink": "/docs/4.5.1/admin/bookies"
+  }
+}

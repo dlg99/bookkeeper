@@ -1,0 +1,25 @@
+{
+  "unversionedId": "getting-started/installation",
+  "id": "getting-started/installation",
+  "title": "BookKeeper installation",
+  "description": "You can install BookKeeper either by downloading a GZipped tarball package or cloning the BookKeeper repository.",
+  "source": "@site/docs/getting-started/installation.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/installation",
+  "permalink": "/docs/next/getting-started/installation",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "installation",
+    "title": "BookKeeper installation"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Apache BookKeeper 4.15.0-SNAPSHOT",
+    "permalink": "/docs/next/overview/"
+  },
+  "next": {
+    "title": "Run bookies locally",
+    "permalink": "/docs/next/getting-started/run-locally"
+  }
+}

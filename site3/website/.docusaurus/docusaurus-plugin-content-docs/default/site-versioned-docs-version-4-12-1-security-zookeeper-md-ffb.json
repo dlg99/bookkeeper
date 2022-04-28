@@ -1,0 +1,25 @@
+{
+  "unversionedId": "security/zookeeper",
+  "id": "version-4.12.1/security/zookeeper",
+  "title": "ZooKeeper Authentication",
+  "description": "New Clusters",
+  "source": "@site/versioned_docs/version-4.12.1/security/zookeeper.md",
+  "sourceDirName": "security",
+  "slug": "/security/zookeeper",
+  "permalink": "/docs/4.12.1/security/zookeeper",
+  "tags": [],
+  "version": "4.12.1",
+  "frontMatter": {
+    "id": "zookeeper",
+    "title": "ZooKeeper Authentication"
+  },
+  "sidebar": "version-4.12.1/docsSidebar",
+  "previous": {
+    "title": "Authentication using SASL",
+    "permalink": "/docs/4.12.1/security/sasl"
+  },
+  "next": {
+    "title": "The BookKeeper protocol",
+    "permalink": "/docs/4.12.1/development/protocol"
+  }
+}

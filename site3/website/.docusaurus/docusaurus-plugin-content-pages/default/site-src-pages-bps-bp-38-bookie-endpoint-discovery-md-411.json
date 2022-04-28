@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/bps/BP-38-bookie-endpoint-discovery",
+  "source": "@site/src/pages/bps/BP-38-bookie-endpoint-discovery.md",
+  "title": "BP-38: Publish Bookie Service Info on Metadata Service",
+  "description": "Motivation",
+  "frontMatter": {}
+}

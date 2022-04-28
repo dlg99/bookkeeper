@@ -1,0 +1,16 @@
+{
+  "unversionedId": "admin/placement",
+  "id": "admin/placement",
+  "title": "Customized placement policies",
+  "description": "",
+  "source": "@site/docs/admin/placement.md",
+  "sourceDirName": "admin",
+  "slug": "/admin/placement",
+  "permalink": "/docs/next/admin/placement",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "placement",
+    "title": "Customized placement policies"
+  }
+}

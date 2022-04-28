@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/project/who",
+  "source": "@site/src/pages/project/who.md",
+  "title": "Who are we?",
+  "description": "PMC members",
+  "frontMatter": {}
+}

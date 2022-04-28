@@ -1,0 +1,8 @@
+{
+  "type": "mdx",
+  "permalink": "/bps/BP-25-MovingChecksumToProto",
+  "source": "@site/src/pages/bps/BP-25-MovingChecksumToProto.md",
+  "title": "BP-25: MovingChecksumToProto--Refactor the checksum part of bookkeeper",
+  "description": "Motivation",
+  "frontMatter": {}
+}

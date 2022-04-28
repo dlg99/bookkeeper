@@ -1,0 +1,25 @@
+{
+  "unversionedId": "api/ledger-api",
+  "id": "api/ledger-api",
+  "title": "The Ledger API",
+  "description": "The ledger API is a lower-level API for BookKeeper that enables you to interact with ledgers directly.",
+  "source": "@site/docs/api/ledger-api.md",
+  "sourceDirName": "api",
+  "slug": "/api/ledger-api",
+  "permalink": "/docs/next/api/ledger-api",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "ledger-api",
+    "title": "The Ledger API"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "BookKeeper API",
+    "permalink": "/docs/next/api/overview"
+  },
+  "next": {
+    "title": "The Advanced Ledger API",
+    "permalink": "/docs/next/api/ledger-adv-api"
+  }
+}

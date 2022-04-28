@@ -1,0 +1,21 @@
+{
+  "unversionedId": "reference/cli",
+  "id": "version-4.14.4/reference/cli",
+  "title": "BookKeeper CLI tool reference",
+  "description": "bookkeeper command",
+  "source": "@site/versioned_docs/version-4.14.4/reference/cli.md",
+  "sourceDirName": "reference",
+  "slug": "/reference/cli",
+  "permalink": "/docs/reference/cli",
+  "tags": [],
+  "version": "4.14.4",
+  "frontMatter": {
+    "id": "cli",
+    "title": "BookKeeper CLI tool reference"
+  },
+  "sidebar": "version-4.14.4/docsSidebar",
+  "previous": {
+    "title": "BookKeeper configuration",
+    "permalink": "/docs/reference/config"
+  }
+}

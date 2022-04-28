@@ -1,0 +1,25 @@
+{
+  "unversionedId": "deployment/kubernetes",
+  "id": "deployment/kubernetes",
+  "title": "Deploying Apache BookKeeper on Kubernetes",
+  "description": "Apache BookKeeper can be easily deployed in Kubernetes clusters. The managed clusters on Google Container Engine is the most convenient way.",
+  "source": "@site/docs/deployment/kubernetes.md",
+  "sourceDirName": "deployment",
+  "slug": "/deployment/kubernetes",
+  "permalink": "/docs/next/deployment/kubernetes",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "kubernetes",
+    "title": "Deploying Apache BookKeeper on Kubernetes"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Deploying BookKeeper on DC/OS",
+    "permalink": "/docs/next/deployment/dcos"
+  },
+  "next": {
+    "title": "BookKeeper administration",
+    "permalink": "/docs/next/admin/bookies"
+  }
+}

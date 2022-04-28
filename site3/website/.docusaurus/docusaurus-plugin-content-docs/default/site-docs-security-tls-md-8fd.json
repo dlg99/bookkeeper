@@ -1,0 +1,25 @@
+{
+  "unversionedId": "security/tls",
+  "id": "security/tls",
+  "title": "Encryption and Authentication using TLS",
+  "description": "Apache BookKeeper allows clients and autorecovery daemons to communicate over TLS, although this is not enabled by default.",
+  "source": "@site/docs/security/tls.md",
+  "sourceDirName": "security",
+  "slug": "/security/tls",
+  "permalink": "/docs/next/security/tls",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "tls",
+    "title": "Encryption and Authentication using TLS"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "BookKeeper Security",
+    "permalink": "/docs/next/security/overview"
+  },
+  "next": {
+    "title": "Authentication using SASL",
+    "permalink": "/docs/next/security/sasl"
+  }
+}

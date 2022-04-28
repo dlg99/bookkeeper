@@ -1,0 +1,25 @@
+{
+  "unversionedId": "deployment/dcos",
+  "id": "deployment/dcos",
+  "title": "Deploying BookKeeper on DC/OS",
+  "description": "DC/OS (the DataCenter Operating System) is a distributed operating system used for deploying and managing applications and systems on Apache Mesos. DC/OS is an open-source tool created and maintained by Mesosphere.",
+  "source": "@site/docs/deployment/dcos.md",
+  "sourceDirName": "deployment",
+  "slug": "/deployment/dcos",
+  "permalink": "/docs/next/deployment/dcos",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "dcos",
+    "title": "Deploying BookKeeper on DC/OS"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Manual deployment",
+    "permalink": "/docs/next/deployment/manual"
+  },
+  "next": {
+    "title": "Deploying Apache BookKeeper on Kubernetes",
+    "permalink": "/docs/next/deployment/kubernetes"
+  }
+}

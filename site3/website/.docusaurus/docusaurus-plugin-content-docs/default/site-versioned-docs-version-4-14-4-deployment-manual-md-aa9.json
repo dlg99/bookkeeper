@@ -1,0 +1,25 @@
+{
+  "unversionedId": "deployment/manual",
+  "id": "version-4.14.4/deployment/manual",
+  "title": "Manual deployment",
+  "description": "The easiest way to deploy BookKeeper is using schedulers like DC/OS, but you can also deploy BookKeeper clusters manually. A BookKeeper cluster consists of two main components:",
+  "source": "@site/versioned_docs/version-4.14.4/deployment/manual.md",
+  "sourceDirName": "deployment",
+  "slug": "/deployment/manual",
+  "permalink": "/docs/deployment/manual",
+  "tags": [],
+  "version": "4.14.4",
+  "frontMatter": {
+    "id": "manual",
+    "title": "Manual deployment"
+  },
+  "sidebar": "version-4.14.4/docsSidebar",
+  "previous": {
+    "title": "BookKeeper concepts and architecture",
+    "permalink": "/docs/getting-started/concepts"
+  },
+  "next": {
+    "title": "Deploying BookKeeper on DC/OS",
+    "permalink": "/docs/deployment/dcos"
+  }
+}
