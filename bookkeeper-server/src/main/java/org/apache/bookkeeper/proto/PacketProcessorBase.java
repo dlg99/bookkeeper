@@ -19,6 +19,7 @@ package org.apache.bookkeeper.proto;
 
 import io.netty.channel.Channel;
 
+import io.netty.channel.ChannelPromise;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.bookkeeper.proto.BookieProtocol.Request;
