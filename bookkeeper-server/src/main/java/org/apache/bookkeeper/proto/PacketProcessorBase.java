@@ -18,8 +18,8 @@
 package org.apache.bookkeeper.proto;
 
 import io.netty.channel.Channel;
-
 import io.netty.channel.ChannelPromise;
+import io.netty.channel.ChannelFuture;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.bookkeeper.proto.BookieProtocol.Request;
@@ -150,7 +150,10 @@ abstract class PacketProcessorBase<T extends Request> extends SafeRunnable {
      */
     protected void sendResponseAndWait(int rc, Object response, OpStatsLogger statsLogger) {
         try {
-            channel.writeAndFlush(response).await();
+            ChannelFuture future = channel.writeAndFlush(response);
+            if (!channel.eventLoop().inEventLoop()) {
+                future.await();
+            }
         } catch (InterruptedException e) {
             return;
         }
