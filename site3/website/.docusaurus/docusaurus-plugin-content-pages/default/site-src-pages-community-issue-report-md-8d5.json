@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/community/issue-report",
-  "source": "@site/src/pages/community/issue-report.md",
-  "title": "Issue report",
-  "description": "To report an issue, you will need to create a New Issue.",
-  "frontMatter": {}
-}

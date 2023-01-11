@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/community/bookkeeper-proposals",
-  "source": "@site/src/pages/community/bookkeeper-proposals.md",
-  "title": "BookKeeper Proposals",
-  "description": "This page describes a proposed BookKeeper Proposal (BP) process for proposing a major change to BookKeeper.",
-  "frontMatter": {}
-}

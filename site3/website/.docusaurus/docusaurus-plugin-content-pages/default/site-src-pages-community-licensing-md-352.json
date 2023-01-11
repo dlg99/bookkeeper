@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/community/licensing",
-  "source": "@site/src/pages/community/licensing.md",
-  "title": "Third party dependencies and licensing",
-  "description": "The bookkeeper project ships one source distribution and two binary distributions.",
-  "frontMatter": {}
-}

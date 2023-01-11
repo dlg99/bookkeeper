@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/community/coding-guide",
-  "source": "@site/src/pages/community/coding-guide.md",
-  "title": "Coding guide",
-  "description": "These guidelines are meant to encourage consistency and best practices among people working on Apache BookKeeper code base.",
-  "frontMatter": {}
-}

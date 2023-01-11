@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/bps/BP-32-advisory-write-close",
-  "source": "@site/src/pages/bps/BP-32-advisory-write-close.md",
-  "title": "BP-32: Advisory (optimistic) write close",
-  "description": "Motivation",
-  "frontMatter": {}
-}

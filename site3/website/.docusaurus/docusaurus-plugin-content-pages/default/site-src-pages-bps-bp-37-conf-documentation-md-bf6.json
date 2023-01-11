@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/bps/BP-37-conf-documentation",
-  "source": "@site/src/pages/bps/BP-37-conf-documentation.md",
-  "title": "BP-37: Improve configuration management for better documentation",
-  "description": "Motivation",
-  "frontMatter": {}
-}

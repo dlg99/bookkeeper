@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/bps/BP-26-move-distributedlog-core-library",
-  "source": "@site/src/pages/bps/BP-26-move-distributedlog-core-library.md",
-  "title": "BP-26: Move distributedlog library as part of bookkeeper",
-  "description": "Motivation",
-  "frontMatter": {}
-}

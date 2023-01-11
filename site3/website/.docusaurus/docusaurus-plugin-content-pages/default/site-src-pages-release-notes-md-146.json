@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/release-notes",
-  "source": "@site/src/pages/release-notes.md",
-  "title": "Release notes",
-  "description": "4.14.5",
-  "frontMatter": {}
-}

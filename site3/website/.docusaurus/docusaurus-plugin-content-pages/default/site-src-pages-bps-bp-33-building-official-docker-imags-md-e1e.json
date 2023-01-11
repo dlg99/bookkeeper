@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/bps/BP-33-building-official-docker-imags",
-  "source": "@site/src/pages/bps/BP-33-building-official-docker-imags.md",
-  "title": "BP-33: Move releasing official docker images out of main repo",
-  "description": "Motivation",
-  "frontMatter": {}
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/community/slack",
-  "source": "@site/src/pages/community/slack.md",
-  "title": "Slack",
-  "description": "There is an Apache BookKeeper channel that is used for informal discussions for BookKeeper developers and users.",
-  "frontMatter": {}
-}

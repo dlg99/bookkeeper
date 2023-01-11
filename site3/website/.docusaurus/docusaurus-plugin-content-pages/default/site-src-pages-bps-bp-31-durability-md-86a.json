@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/bps/BP-31-durability",
-  "source": "@site/src/pages/bps/BP-31-durability.md",
-  "title": "BP-31: BookKeeper Durability (Anchor)",
-  "description": "Motivation",
-  "frontMatter": {}
-}

@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/bps/BP-template",
-  "source": "@site/src/pages/bps/BP-template.md",
-  "title": "BP-XYZ: caption of bookkeeper proposal",
-  "description": "Motivation",
-  "frontMatter": {}
-}

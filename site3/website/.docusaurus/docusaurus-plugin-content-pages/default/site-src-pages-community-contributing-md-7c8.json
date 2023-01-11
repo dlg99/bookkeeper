@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/community/contributing",
-  "source": "@site/src/pages/community/contributing.md",
-  "title": "Contribution guide",
-  "description": "The Apache BookKeeper community welcomes contributions from anyone with a passion for distributed systems! BookKeeper has many different opportunities for contributions --",
-  "frontMatter": {}
-}

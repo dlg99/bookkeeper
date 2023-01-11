@@ -1,8 +1,0 @@
-{
-  "type": "mdx",
-  "permalink": "/community/release-guide",
-  "source": "@site/src/pages/community/release-guide.md",
-  "title": "Apache BookKeeper Release Guide",
-  "description": "This page documents the procedure to make an Apache BookKeeper release.",
-  "frontMatter": {}
-}
