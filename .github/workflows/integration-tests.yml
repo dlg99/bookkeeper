@@ -25,6 +25,7 @@ on:
     branches:
       - master
       - branch-*
+      - ds-*
     paths-ignore:
       - 'site/**'
     workflow_dispatch:
