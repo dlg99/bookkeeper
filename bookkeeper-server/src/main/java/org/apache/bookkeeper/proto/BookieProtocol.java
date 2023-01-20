@@ -25,7 +25,7 @@ import io.netty.buffer.Unpooled;
 import io.netty.util.Recycler;
 import io.netty.util.Recycler.Handle;
 import io.netty.util.ReferenceCountUtil;
-import io.netty.util.ReferenceCounted;
+
 import org.apache.bookkeeper.proto.BookkeeperProtocol.AuthMessage;
 import org.apache.bookkeeper.util.ByteBufList;
 
@@ -428,8 +428,10 @@ public interface BookieProtocol {
                                  opCode, ledgerId, entryId, errorCode);
         }
 
-        boolean release() {
-            return true;
+        void retain() {
+        }
+
+        void release() {
         }
 
         void recycle() {
@@ -439,7 +441,7 @@ public interface BookieProtocol {
     /**
      * A request that reads data.
      */
-    class ReadResponse extends Response implements ReferenceCounted {
+    class ReadResponse extends Response {
         final ByteBuf data;
 
         ReadResponse(byte protocolVersion, int errorCode, long ledgerId, long entryId) {
@@ -460,38 +462,13 @@ public interface BookieProtocol {
         }
 
         @Override
-        public int refCnt() {
-            return data.refCnt();
+        public void retain() {
+            data.retain();
         }
 
         @Override
-        public ReferenceCounted retain() {
-            return data.retain();
-        }
-
-        @Override
-        public ReferenceCounted retain(int increment) {
-            return data.retain(increment);
-        }
-
-        @Override
-        public ReferenceCounted touch() {
-            return data.touch();
-        }
-
-        @Override
-        public ReferenceCounted touch(Object hint) {
-            return data.touch(hint);
-        }
-
-        @Override
-        public boolean release() {
-            return data.release();
-        }
-
-        @Override
-        public boolean release(int decrement) {
-            return data.release(decrement);
+        public void release() {
+            data.release();
         }
     }
 
