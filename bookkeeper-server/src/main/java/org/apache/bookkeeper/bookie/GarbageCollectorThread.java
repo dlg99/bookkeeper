@@ -27,6 +27,7 @@ import io.netty.util.concurrent.DefaultThreadFactory;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Comparator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -461,6 +462,11 @@ public class GarbageCollectorThread extends SafeRunnable {
         int[] entryLogUsageBuckets = new int[numBuckets];
         int[] compactedBuckets = new int[numBuckets];
 
+        ArrayList<LinkedList<Long>> compactableBuckets = new ArrayList<>(numBuckets);
+        for (int i = 0; i < numBuckets; i++) {
+            compactableBuckets.add(new LinkedList<>());
+        }
+
         long start = System.currentTimeMillis();
         long end = start;
         long timeDiff = 0;
@@ -474,25 +480,61 @@ public class GarbageCollectorThread extends SafeRunnable {
                 timeDiff = end - start;
             }
             if (meta.getUsage() >= threshold || (maxTimeMillis > 0 && timeDiff > maxTimeMillis) || !running) {
-                // We allow the usage limit calculation to continue so that we get a accurate
+                // We allow the usage limit calculation to continue so that we get an accurate
                 // report of where the usage was prior to running compaction.
                 continue;
             }
-            if (LOG.isDebugEnabled()) {
-                LOG.debug("Compacting entry log {} with usage {} below threshold {}",
-                        meta.getEntryLogId(), meta.getUsage(), threshold);
-            }
 
-            long priorRemainingSize = meta.getRemainingSize();
-            compactEntryLog(meta);
-            gcStats.getReclaimedSpaceViaCompaction().add(meta.getTotalSize() - priorRemainingSize);
-            compactedBuckets[bucketIndex]++;
+            compactableBuckets.get(bucketIndex).add(meta.getEntryLogId());
         }
+
+        LOG.info(
+                "Compaction: entry log usage buckets before compaction [10% 20% 30% 40% 50% 60% 70% 80% 90% 100%] = {}",
+                entryLogUsageBuckets);
+
+        final int maxBucket = calculateUsageIndex(numBuckets, threshold);
+        stopCompaction:
+        for (int currBucket = 0; currBucket <= maxBucket; currBucket++) {
+            LinkedList<Long> entryLogIds = compactableBuckets.get(currBucket);
+            while (!entryLogIds.isEmpty()) {
+                if (timeDiff < maxTimeMillis) {
+                    end = System.currentTimeMillis();
+                    timeDiff = end - start;
+                }
+
+                if ((maxTimeMillis > 0 && timeDiff >= maxTimeMillis) || !running) {
+                    // We allow the usage limit calculation to continue so that we get an accurate
+                    // report of where the usage was prior to running compaction.
+                    break stopCompaction;
+                }
+
+                final int bucketIndex = currBucket;
+                final long logId = entryLogIds.remove();
+
+                EntryLogMetadata meta = entryLogMetaMap.get(logId);
+                if (meta == null) {
+                    if (LOG.isDebugEnabled()) {
+                        LOG.debug("Metadata for entry log {} already deleted", logId);
+                    }
+                    continue;
+                }
+                if (LOG.isDebugEnabled()) {
+                    LOG.debug("Compacting entry log {} with usage {} below threshold {}",
+                            meta.getEntryLogId(), meta.getUsage(), threshold);
+                }
+
+                long priorRemainingSize = meta.getRemainingSize();
+                compactEntryLog(meta);
+                gcStats.getReclaimedSpaceViaCompaction().add(meta.getTotalSize() - priorRemainingSize);
+                compactedBuckets[bucketIndex]++;
+            }
+        }
+
         if (LOG.isDebugEnabled()) {
             if (!running) {
                 LOG.debug("Compaction exited due to gc not running");
             }
-            if (timeDiff > maxTimeMillis) {
+            if (maxTimeMillis > 0 && timeDiff > maxTimeMillis) {
                 LOG.debug("Compaction ran for {}ms but was limited by {}ms", timeDiff, maxTimeMillis);
             }
         }

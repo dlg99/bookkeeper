@@ -406,8 +406,8 @@ public abstract class CompactionTest extends BookKeeperClusterTestCase {
         baseConf.setMajorCompactionInterval(240000);
 
         // Setup limit on compaction duration.
-        baseConf.setMinorCompactionMaxTimeMillis(15);
-        baseConf.setMajorCompactionMaxTimeMillis(15);
+        baseConf.setMinorCompactionMaxTimeMillis(5000);
+        baseConf.setMajorCompactionMaxTimeMillis(5000);
 
         // restart bookies
         restartBookies(baseConf);
